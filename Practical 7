@@ -1,0 +1,90 @@
+Source Code:
+
+print("Hashing Techniques Division Remainder Method")
+meint (input("Size of the hash table: "))
+n=int(input("Number of Keys: "))
+h=[]
+
+for i in range(m):
+h.append(0)
+
+print("Enter elements")
+for i in range(n):
+key=int(input())
+rel_add=key%m
+if h[rel add]=0:
+h[rel_add]=key
+print("Relative Address = ",rel add)
+else:
+print("Relative Address = ",rel add," (Collision Case)")
+
+print("\nHash Table").
+print("Index\tKey")
+for i in range(m):
+print(i, "\t",h[i])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+source Code:
+
+print("Collision Resolution Techniques: Linear Probing")
+m=int(input("Size of the hash table: "))
+
+n-int(input("Sumber of Keys: "))
+h=[]
+
+for i in range(m):
+h.append(0)
+
+print("Enter elements")
+
+for i in range(n):
+
+key=int (input())
+
+rel _add=key%m
+If h[rel _add]==0:
+
+h[rel_add]=key
+
+print ("Relative Address ", rel_add)
+else:
+
+print("Relative Address ", rel_add," (Collision Case)")
+
+p=1
+While h[rel add]!=0 and p<m:
+
+rel_add=((keym)+p) %m
+if h[rel add]==0:
+
+h[rel_add]=key
+
+print("Relative Address", rel_add)
+
+flag=1
+break
+
+else
+
+print("Relative Address",rel_add," (Collision Case)")
+
+p=p+1
+
+print("\nHach Table")
+print("Index/tkey")
+
+for i in range(m):
+print(1, "\t",h[1])
